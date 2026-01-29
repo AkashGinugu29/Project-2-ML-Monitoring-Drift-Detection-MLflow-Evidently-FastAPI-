@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+
+mlruns/
+artifacts/
+models/
+reports/*.html
+
+data/reference/*.csv
+data/current/*.csv
+!data/reference/.keep
+!data/current/.keep
